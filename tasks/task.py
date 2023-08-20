@@ -11,9 +11,9 @@ def validate(func):
     return wrapper
     pass
 
-# @validate
-# def set_pixel(x: int, y: int, z: int) -> str:
-#   return "Pixel created!"
+@validate
+def set_pixel(x: int, y: int, z: int) -> str:
+  return "Pixel created!"
 #
 # print(set_pixel(0, 127, 300))
 # print(set_pixel(0, 127, 255))
